@@ -24,5 +24,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('food', function() {
-	echo "Hello";
+	echo "Hello, Khusan";
 });
