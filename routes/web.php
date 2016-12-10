@@ -22,3 +22,7 @@ Route::post('profile', 'UserController@update_avatar');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('food', function() {
+	echo "Hello";
+});
